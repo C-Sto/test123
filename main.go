@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
-	fmt.Println("test123456789012345asdfasdfasdfsadfasfasf")
+	fmt.Println(strings.Repeat("test123456789012345asdfasdfasdfsadfasfasf", 999999))
 }
